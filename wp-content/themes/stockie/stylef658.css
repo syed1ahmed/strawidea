@@ -91,10 +91,15 @@
 # Normalize
 --------------------------------------------------------------*/
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
+::selection {
+  color: white;
+  background: #4ed13e;
+  }
 body {
   margin: 0; }
 
@@ -637,7 +642,8 @@ h1, h2, h3, h4, h5, h6,
       border: none;
       padding: 25px; }
   .banner-box.inner .overlay {
-    background: rgba(68, 68, 68, 0.7);
+    background-image: linear-gradient(
+90deg, #4e4e4e73, #9b9b9b00);
     opacity: 1;
     -webkit-transform: none;
         -ms-transform: none;
@@ -1567,7 +1573,8 @@ h1, h2, h3, h4, h5, h6,
     margin: 0px; }
   .icon-box.box-left, .icon-box.box-right {
     text-align: left;
-    position: relative; }
+    position: relative;
+    padding-top:30px; }
     .icon-box.box-left .icon-box-wrap, .icon-box.box-right .icon-box-wrap {
       padding: 0;
       min-width: 40px;
