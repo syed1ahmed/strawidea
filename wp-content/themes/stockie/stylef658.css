@@ -132,6 +132,11 @@ audio:not([controls]) {
 template {
   display: none; }
 
+#footer-container{
+background:#24262b;
+  }
+
+
 a {
   background-color: transparent; }
 
@@ -165,6 +170,14 @@ sup {
 
 sub {
   bottom: -0.25em; }
+
+.table-element {
+color:#170027;
+}
+.table-head{
+  color:black;
+  font-size: 18px;
+}
 
 img {
   border: 0; }
@@ -750,7 +763,9 @@ h1, h2, h3, h4, h5, h6,
 ## Call to Action
 --------------------------------------------------------------*/
 .cta {
-  background: #f9f9f9;
+  background: #cdcdcd;
+  border-radius: 20px;
+  margin-bottom:69px;
   width: 100%;
   padding: 2.5em;
   position: relative;
@@ -2682,7 +2697,8 @@ h1, h2, h3, h4, h5, h6,
   .socialbar.small.default a {
     line-height: 38px; }
   .socialbar.small.outline a {
-    line-height: 36px; }
+    line-height: 36px; 
+  margin-right: 25px;}
   .socialbar a:first-child {
     margin-left: 0; }
   .socialbar a:last-child {
@@ -5251,7 +5267,8 @@ h1, h2, h3, h4, h5, h6,
 h3.widget-title {
   text-align: inherit;
   font-size: 1.2em;
-  margin: 0 0 25px; }
+  margin: 0 0 25px; 
+color:white;}
 
 section.widget:first-child .widget-title {
   margin-top: 5px; }
@@ -6042,7 +6059,8 @@ section.widget:first-child .widget-title {
   padding: 0px;
   font-weight: 600;
   list-style: none;
-  line-height: 2.3; }
+  line-height: 2.3;
+  color:white; }
   .widget_stockie_widget_contact li:after {
     display: none; }
   .widget_stockie_widget_contact li address {
@@ -6088,7 +6106,8 @@ section.widget:first-child .widget-title {
 ## Product categories widget
 --------------------------------------------------------------*/
 .widget_product_categories h3.title {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+color:white; }
   @media screen and (max-width: 1024px) {
     .widget_product_categories h3.title {
       margin-bottom: 15px; } }
@@ -6747,7 +6766,8 @@ ul, ol {
   margin: 0 0 1.5em 3em; }
   ul li, ol li {
     padding: 5px 0;
-    list-style-position: inside; }
+    list-style-position: inside;
+  font-size: 17px }
   ul ul, ol ul {
     list-style-type: circle; }
 
@@ -7447,7 +7467,7 @@ del {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background-color: #6ecb63;
+    background-color: #c5c5c5;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
     -webkit-border-radius: 50%;
@@ -8320,14 +8340,14 @@ input[type="radio"] {
       white-space: nowrap;
       font-size: 0.8em;
       text-transform: uppercase; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 350px) {
         .scroll-top-inner-tag {
           display: none; } }
       .scroll-top-inner-tag:hover {
         color: #32353c; }
     .scroll-top-inner:hover .scroll-top-inner-tag {
       color: #32353c; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 400px) {
     .scroll-top.mobile-hide {
       display: none !important; } }
 
@@ -10542,7 +10562,7 @@ nav.pagination {
         height: 100%; } }
   .site-header.header-4 .main-nav {
     position: absolute;
-    left: 50%;
+    
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
@@ -11601,7 +11621,8 @@ button.search-submit {
         padding: 35px 0 50px; } }
   @media screen and (max-width: 768px) {
     .site-footer .widgets {
-      padding: 20px 0px; } }
+      padding: 20px 0px;
+    background: #2e2e2e; } }
   .site-footer .page-container + .site-info .wrap {
     border-top: 1px solid rgba(0, 0, 0, 0.05); }
   .site-footer .site-info {
@@ -11674,7 +11695,7 @@ button.search-submit {
   z-index: 10;
   text-align: left;
   font-weight: 500;
-  font-size: 0.96em;
+  font-size: 1.2em;
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -11713,7 +11734,8 @@ button.search-submit {
       .main-nav .nav-item {
         float: left;
         position: relative;
-        font-family: -apple-system, BlinkMacSystemFont, "proxima_nova", Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        letter-spacing: 2px;
+        font-family: system-ui;
         position: relative;
         padding: 0px;
         height: 100%; }
@@ -11987,7 +12009,7 @@ button.search-submit {
     padding: 25px;
     margin-right: 12px;
     vertical-align: middle;
-    background-color: #4ed13e9e;
+    background-color: #dfdfdf9e;
     display: inline-block;
     position: relative;
     cursor: pointer;
@@ -13069,11 +13091,11 @@ button.search-submit {
   height: 50px;
   z-index: 5;
   cursor: pointer; }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 10024px) {
     .share-bar {
       bottom: 20px;
       left: 20px; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 350px) {
     .share-bar {
       bottom: 15px;
       left: 15px; } }
@@ -13124,7 +13146,7 @@ button.search-submit {
       -webkit-transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
       -o-transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
       transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.25s; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 350px) {
         .share-bar .title .name {
           display: none; } }
   .share-bar .links {
@@ -14303,7 +14325,7 @@ div.post-offset {
 .post {
   margin-bottom: 0px; }
   .post .entry-content a:not(.wp-block-button__link) {
-    color: #B79B6C; }
+    color: #000; }
     .post .entry-content a:not(.wp-block-button__link):before {
       width: 100%;
       opacity: 0.2; }
@@ -14555,7 +14577,11 @@ body #lang_sel_footer {
 # Help classes
 --------------------------------------------------------------*/
 .text-left {
-  text-align: left; }
+  
+  padding: 10px;
+  text-align: center;
+  background: white;
+  border-radius: 10px; }
 
 .text-right {
   text-align: right; }
@@ -18129,7 +18155,8 @@ select {
       letter-spacing: 3px; }
 
 .woocommerce ul {
-  list-style: none; }
+  list-style: none;
+color:white; }
 
 .woocommerce .form-row {
   padding: 0;

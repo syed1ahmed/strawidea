@@ -10111,8 +10111,7 @@ nav.pagination {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-  background: transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  background: white;
   vertical-align: middle;
   left: 0px;
   right: 0px;
@@ -11743,6 +11742,7 @@ button.search-submit {
           padding: 0 10px; } }
   @media screen and (min-width: 1025px) {
           .main-nav .nav-item a span {
+            color: #000;
             vertical-align: middle; }
         .main-nav .nav-item:before,
         .main-nav .nav-item.current-menu-item:before,
