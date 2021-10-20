@@ -1533,7 +1533,7 @@ h1, h2, h3, h4, h5, h6,
 --------------------------------------------------------------*/
 .heading .title,
 .heading .subtitle {
-  margin: 5px 0;
+  margin: 10px 0;
   font-family: -apple-system, BlinkMacSystemFont, "proxima_nova", Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 .heading .subtitle + .divider {
@@ -4493,7 +4493,8 @@ h1, h2, h3, h4, h5, h6,
       -o-transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
       transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.25s; }
       .tab .tabNav_link.active {
-        font-weight: bold; }
+        font-weight: bold;
+        color: #1eb50c;}
   .tab .tabItems {
     position: relative;
     -webkit-transition: height 0.3s cubic-bezier(0.2, 0.35, 0.25, 1);
@@ -4709,7 +4710,7 @@ h1, h2, h3, h4, h5, h6,
       text-align: left; }
       .team-member.cover .team-member_wrap .socialbar {
         position: absolute;
-        bottom: 25px; }
+        bottom: 1px; }
         @media screen and (max-width: 768px) {
           .team-member.cover .team-member_wrap .socialbar {
             bottom: auto;
@@ -6767,7 +6768,7 @@ ul, ol {
   ul li, ol li {
     padding: 5px 0;
     list-style-position: inside;
-  font-size: 17px }
+  font-size: 15px }
   ul ul, ol ul {
     list-style-type: circle; }
 
