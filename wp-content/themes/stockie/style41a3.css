@@ -12629,7 +12629,7 @@ button.search-submit {
       .main-nav .sub-nav .sub-sub-menu.active,
       .main-nav .sub-sub-nav .sub-menu.active,
       .main-nav .sub-sub-nav .sub-sub-menu.active {
-        height: auto; }
+        height: 10px; }
       .main-nav .sub-nav .sub-menu .sub-nav-item.active,
       .main-nav .sub-nav .sub-sub-menu .sub-nav-item.active,
       .main-nav .sub-sub-nav .sub-menu .sub-nav-item.active,

@@ -11793,7 +11793,7 @@ button.search-submit {
         .main-nav div.sub-nav .sub-sub-menu,
         .main-nav div.sub-sub-nav .sub-menu,
         .main-nav div.sub-sub-nav .sub-sub-menu {
-          padding-top: 15px;
+          
           padding-bottom: 15px; }
       .main-nav .sub-nav {
         font-size: 0.95em;
@@ -18437,7 +18437,7 @@ div.masonry-block {
     background: rgba(255, 213, 105, 0.85); }
   .vc_editor.compose-mode .vc_stockie_tabs:after,
   .vc_editor.compose-mode .vc_stockie_split_screens:after {
-    content: 'Sorry, but this shortcode can be properly edited only in WPBakery Backend Editor.';
+  
     position: absolute;
     font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: block;
@@ -18455,3 +18455,83 @@ div.masonry-block {
 
 .vc_stockie_accordion_inner .content.open .wrap > .vc_element-container {
   display: none; }
+
+  .our-team{
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.our-team img{
+    width: 60%;
+    height: 100%;
+    
+}
+.our-team .content{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 1%;
+    transform: perspective(400px) rotateX(-90deg);
+    transform-origin: center top 0;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+}
+.our-team:hover .content,
+.our-team.active .content{
+    opacity: 1;
+    transform: perspective(400px) rotateX(0deg);
+}
+.our-team .content .title{
+    margin: 0 0 10px;
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+}
+.our-team .content .post{
+    margin: 0 0 5px;
+    display: block;
+    font-size: 13px;
+    text-align: left;
+    padding:8px;
+    
+}
+.our-team .social{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.our-team .social li{
+    display: inline-block;
+}
+.our-team .social li a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 0;
+    background-color: #fff;
+    margin-right: 5px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+}
+.our-team .social li a:hover, .our-team.active .social li a{
+    border-radius: 50%;
+    text-decoration: none;
+  
+}
+
+@media screen and (max-width: 990px){
+    .our-team{
+        margin-bottom: 30px;
+    }
+  }
+  .menu-link .main-menu-link .item-title a {
+  color:#4ed13e;
+}
