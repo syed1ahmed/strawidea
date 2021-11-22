@@ -165,8 +165,10 @@ sup {
   vertical-align: baseline; }
 
 sup {
-  top: -0.5em;
-  margin-left: 2px; }
+  display:none;
+  /* top: -0.5em;
+  margin-left: 2px; } */
+}
 
 sub {
   bottom: -0.25em; }
