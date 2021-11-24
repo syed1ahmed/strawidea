@@ -10488,12 +10488,12 @@ nav.pagination {
       display: none; }
     .site-header .site-branding .logo img,
     .site-header .site-branding .logo img.svg-logo {
-      max-height: 30px;
+      max-height: 75px;
       display: inherit; }
       @media screen and (max-width: 768px) {
         .site-header .site-branding .logo img,
         .site-header .site-branding .logo img.svg-logo {
-          max-height: 40px; } }
+          max-height: 75px; } }
     .site-header .site-branding .fixed-logo {
       display: none; }
     .site-header .site-branding .mobile-logo img {
