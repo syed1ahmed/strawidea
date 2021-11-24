@@ -1960,9 +1960,9 @@
     content: "\f199"
 }
 
-.fa-envira:before {
+\.fa-envira:before {
     content: "\f299";
-    color: #000
+    color: #38353c
 }
 
 .fa-equals:before {
