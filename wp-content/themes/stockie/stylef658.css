@@ -8317,7 +8317,7 @@ input[type="radio"] {
       line-height: 50px;
       height: 50px;
       width: 50px;
-      background-color: #6ecb63;
+      background-color: #0b7b3e;
       -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
       -webkit-border-radius: 100%;
@@ -13127,7 +13127,7 @@ button.search-submit {
       transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.25s; }
       @media screen and (min-width: 1025px) {
         .share-bar .title .ion {
-          background-color: #fff; } }
+          background-color: #0b7b3e; } }
     .share-bar .title .name {
       height: 50px;
       line-height: 50px;
@@ -13240,7 +13240,7 @@ button.search-submit {
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
     background-color: #fff;
-    border-color: #6ecb63;
+    border-color: #0b7b3e;
     color: #32353c; }
 
 .social-bar-move {
