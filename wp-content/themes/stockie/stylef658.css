@@ -117,6 +117,12 @@ section,
 summary {
   display: block; }
 
+.slider-text{
+  font-family: system-ui;
+  letter-spacing: 3px;
+  color:white;
+  font-weight: 500;
+}  
 audio,
 canvas,
 progress,
