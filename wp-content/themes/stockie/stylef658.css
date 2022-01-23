@@ -1593,7 +1593,8 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1; }
   .icon-box-details {
     display: block;
-    margin: 0px; }
+    margin: 0px; 
+    font-size: 1.2rem;}
   .icon-box.box-left, .icon-box.box-right {
     text-align: left;
     position: relative;
@@ -1613,7 +1614,20 @@ h1, h2, h3, h4, h5, h6,
   .icon-box.box-right {
     text-align: right; }
     .icon-box.box-right .icon-box-headline {
-      text-align: right; }
+      text-align: right;
+     }
+   @media only screen and (min-width: 1200px) {
+      .icon-box-headline {
+        font-size: 1.5rem;
+        padding-bottom:10px;
+      }
+    }
+    @media only screen and (min-width: 1200px) {
+      .icon-box-content {
+        font-size: 1.4rem;
+        
+      }
+    }     
     .icon-box.box-right .icon-box-wrap {
       left: auto;
       right: 0;
